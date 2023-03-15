@@ -12,7 +12,6 @@ from tkinter import PhotoImage, Tk, ttk, Label, CENTER, Entry, Button
 from PIL import Image, ImageDraw, ImageFont
 from ping3 import ping
 from pystray import Icon, Menu, MenuItem
-from Resource_Path import resource_path
 
 
 # - - - - - - - - - - LOG - - - - - - - - - - #
