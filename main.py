@@ -42,7 +42,7 @@ loop = True
 root = Tk()
 frm = ttk.Frame(root, padding=10)
 root.title('PING TaskBar - Address to be pinged')
-root.wm_iconphoto(False, PhotoImage(file=resource_path(r'img\main.png')))
+root.wm_iconphoto(False, PhotoImage(file=r'img\main.png'))
 root.attributes('-topmost', 1)
 posx = (root.winfo_screenwidth() / 2) - (212 / 2)
 posy = (root.winfo_screenheight() / 2) - (124 / 2)
